@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: aqua;
+}
+h2,
+h1 {
+  font-size: 4rem;
+}
+ul,ol{
+    list-style: none;
+}
+a { text-decoration: none;
+    margin-top: 0.3rem;
+  font-size: 4rem;
+ color: aqua;
+}
+.menu,
+.country {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center ;
+  background-repeat: no-repeat;
+}
+.menu {
+  background-image: url(../images/countries.jpg);
+
+}
+.uzb {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/uzb.jpg);
+}
+.s-korea{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/s-korea.jpg);
+}
+.australia {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/australia.jpg);
+}
+.singapur {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/singapur.jpg);
+}
+.usa {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/usa.jpg);
+}
+.france {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/france.jpg);
+}
